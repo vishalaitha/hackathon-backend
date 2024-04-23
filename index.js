@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     res.send({ "Response": "My Api is running 😎" });
 
 })
-const data = require('/path/to/data.json')
+const data = import('/path/to/data.json')
 
 app.get('/search', function (req, res) {
     res.header("Content-Type", 'application/json');
