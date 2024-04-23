@@ -1,0 +1,50 @@
+[
+    {
+        "itemName": "Dal",
+        "quantity": 26,
+        "price": "$4.47",
+        "lastUpdated": "23/05/2023"
+    },
+    {
+        "itemName": "Tomato",
+        "quantity": 17,
+        "price": "$8.71",
+        "lastUpdated": "10/09/2023"
+    },
+    {
+        "itemName": "Amla oil",
+        "quantity": 10,
+        "price": "$17.57",
+        "lastUpdated": "28/01/2024"
+    },
+    {
+        "itemName": "Bottle",
+        "quantity": 17,
+        "price": "$14.42",
+        "lastUpdated": "14/03/2024"
+    },
+    {
+        "itemName": "Echo Dot",
+        "quantity": 13,
+        "price": "$5.87",
+        "lastUpdated": "09/03/2024"
+    },
+    {
+        "itemName": "Cetaphil",
+        "quantity": 17,
+        "price": "$15.19",
+        "lastUpdated": "16/11/2023"
+    },
+    {
+        "itemName": "Dal",
+        "quantity": 23,
+        "price": "$12.37",
+        "lastUpdated": "03/11/2023"
+    },
+    {
+        "itemName": "Tomato",
+        "quantity": 28,
+        "price": "$13.87",
+        "lastUpdated": "13/05/2023"
+    }
+]
