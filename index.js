@@ -1,17 +1,17 @@
-import express from 'express'
+import express, { json } from 'express'
 
 const app = new express()
 
-app.listen(5001, () => console.log("Api running on port 5001"))
+app.listen(5003, () => console.log("Api running on port 5003"))
 
 app.get('/', (req, res) => {
     res.json('My Api is running 😎');
     res.send({ "Response": "My Api is running 😎" });
 
 })
-const data = import('/path/to/data.json')
 
 app.get('/search', function (req, res) {
     res.header("Content-Type", 'application/json');
-    res.send(JSON.stringify(data));
+    const jsonData = require('./data.json');
+    res.send(JSON.stringify(jsonData));
 })
